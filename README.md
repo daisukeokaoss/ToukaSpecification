@@ -2,7 +2,7 @@
 Specitication of Testing framework that ensure if two C language function input is same then output must be same.Touka means equivalent by Japanese.And this is Japanese ordinary woman name.
 
 ### Motivation - To Port Intel intrinsic function to OpenPOWER
- Motivation to this project is trial to port Intel intrinsic function to OpenPOWER.
+ Motivation to this project is trial to port Intel intrinsic function to OpenPOWER.This is one of CPU platform dependency problem.
  Original document is this.
 
  https://openpowerfoundation.org/specifications/vectorintrinsicportingguide/
