@@ -37,6 +37,12 @@ _mm_cmpeq_sd(__m128d  __A, __m128d  __B)
 }
 ```
 
+To make wrapper structure,we have to have detail understanding of Intel x86 ISA and OpenPOWER ISA.But one question arises.  
+
+This wrapper structure is truly correct?  
+
+To make sure wrapper structure is correct.We have to make testing framework Touka.
+
 ### Touka mascot  
   
 <img width="256" height="256" alt="Touka" src="Touka.png" />  
