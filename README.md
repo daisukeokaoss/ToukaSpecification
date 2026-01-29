@@ -42,6 +42,7 @@ To make wrapper structure,we have to have detail understanding of Intel x86 ISA 
 This wrapper structure is truly correct?  
 
 To make sure wrapper structure is correct.We have to make testing framework Touka.
+Touka input random value to __A and __B to Intel Intrinsic function and that of ported to OpenPOWER or RISC-V.And make sure return value or exception arise must be same.
 
 ### Touka mascot  
   
