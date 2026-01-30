@@ -19,6 +19,9 @@ _mm_add_pd (__m128d __A, __m128d __B)
 ```
 
 This wrapper structure substitute Intel Intrinsic function _mm_add_pd.  
+
+https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#text=_mm_add_pd&ig_expand=116
+
 another example of wrapper structure of porting is like below.
 
 ```c
