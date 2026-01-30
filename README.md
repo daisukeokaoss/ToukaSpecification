@@ -42,6 +42,10 @@ _mm_cmpeq_sd(__m128d  __A, __m128d  __B)
 }
 ```
 
+This wrapper structure substitute Intel Intrinsic function _mm_cmpeq_sd.
+
+https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#text=_mm_cmpeq_sd&ig_expand=116,917
+
 To make wrapper structure,we have to have detail understanding of Intel x86 ISA and OpenPOWER ISA.But one question arises.  
 
 This wrapper structure is truly correct?  
