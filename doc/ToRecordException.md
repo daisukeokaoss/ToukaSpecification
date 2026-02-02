@@ -11,3 +11,4 @@ _mm_add_pd (__m128d __A, __m128d __B)
   return (__m128d) ((__v2df)__A + (__v2df)__B);
 }
 ```
+There is no syntax equivalent to try catch in C. If the test framework is created monolithically with the intrinsic operations part, the application will stop at the point where an exception is thrown.
