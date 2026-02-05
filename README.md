@@ -8,7 +8,7 @@ That is ensure functionality of two function is same.Touka means equivalent by J
 
  https://openpowerfoundation.org/specifications/vectorintrinsicportingguide/
 
- Porting process descrived in this document uses specific wrapper structure.Like shown below.
+ Porting process described in this document uses specific wrapper structure.Like shown below.
 
  ```c
 extern __inline __m128d __attribute__((__gnu_inline__, __always_inline__,__artificial__))
