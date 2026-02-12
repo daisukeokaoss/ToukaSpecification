@@ -53,6 +53,28 @@ This wrapper structure is truly correct?
 To make sure wrapper structure is correct.We have to make testing framework Touka.
 Touka input random value to __A and __B to Intel Intrinsic function and that of ported to OpenPOWER or RISC-V.And make sure return value or exception arise must be same.
 
+## The Intel Intrinsics porting Touka can use
+Touka can be used for porting Intel Intrinsic that not have sideeffect.  
+Porting like below cannot use Touka for now.Because it has sideeffect like memory access.  
+
+```c
+/* Create a vector with element [0] as *P and the rest zero. */
+extern __inline __m128d __attribute__((__gnu_inline__, __always_inline__,
+__artificial__))
+_mm_load_sd (double const *__P)
+{
+   return _mm_set_sd (*__P);
+}
+```
+
+```c
+/* Stores the lower SPFP value. */
+extern __inline void __attribute__((__gnu_inline__, __always_inline__, __artificial__))
+_mm_store_ss (float *__P, __m128 __A)
+{
+   *__P = ((__v4sf)__A)[0];
+}
+```
 ### Touka mascot  
   
 <img width="256" height="256" alt="Touka" src="Touka.png" />  
