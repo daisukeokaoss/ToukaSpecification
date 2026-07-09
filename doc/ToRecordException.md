@@ -14,3 +14,5 @@ _mm_add_pd (__m128d __A, __m128d __B)
 There is no syntax equivalent to try catch in C. If the test framework is created monolithically with the intrinsic operations part, the application will stop at the point where an exception is thrown.
 As a software, one option is to separate the intrinsic operations part from the other parts of the Touka test framework.
 An interface between the intrinsic operations part and the other parts of Touka is required.
+
+Other option is to use C++.In C++ language,there is try catch statement.
