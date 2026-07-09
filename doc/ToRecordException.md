@@ -15,4 +15,4 @@ There is no syntax equivalent to try catch in C. If the test framework is create
 As a software, one option is to separate the intrinsic operations part from the other parts of the Touka test framework.
 An interface between the intrinsic operations part and the other parts of Touka is required.
 
-Other option is to use C++.In C++ language,there is try catch statement.
+Other option is to use C++.In C++ language,there is try catch statement.So we can use it in C++.
